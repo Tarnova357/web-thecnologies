@@ -1,0 +1,53 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+indent_style = space
+indent_size = 2
+
+
+[*.{html,htm,vue}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+ij_html_attribute_case = lower
+ij_html_tag_name_case = lower
+ij_html_quote_style = double
+ij_html_spaces_around_equals_in_attribute = false
+ij_html_spaces_between_attributes = 1
+ij_html_keep_blank_lines = 1
+ij_html_keep_closing_slash = false
+ij_html_blank_lines_around_block = 1
+
+
+
+[*.{css,scss,less}]
+indent_style = space
+indent_size = 2
+ij_css_require_semicolon = true
+ij_css_indent_size = 2
+ij_css_hex_color_case = lower
+ij_css_hex_color_short = false
+ij_css_selector_case = lower
+ij_css_property_name_case = lower
+ij_css_number_leading_zero = true
+ij_css_quote_style = double
+ij_css_space_after_colon = true
+ij_css_space_before_colon = false
+ij_css_space_after_comma = true
+ij_css_space_around_combinator = true
+ij_css_properties_on_new_line = true
+ij_css_space_before_opening_brace = true
+ij_css_new_line_before_closing_brace = true
+ij_css_zero_unit = remove
+ij_css_property_sort_order = position,box,text,visual,animation,other
+ij_css_blank_line_between_property_groups = true
+ij_css_class_name_case = lower
+ij_css_class_name_style = kebab-case
+ij_css_import_rule_allowed = false
+ij_css_font_family_quote_style = double
