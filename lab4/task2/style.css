@@ -1,0 +1,48 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  margin: 0;
+}
+
+.ingredient-name {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.divider {
+  width: 550px;
+  height: 5px;
+  background-color: green;
+  margin: 18px auto;
+  border: none;
+}
+
+.note {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #333333;
+}
