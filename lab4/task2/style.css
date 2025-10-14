@@ -1,12 +1,12 @@
-* {
+.recipe {
   text-align: center;
 }
 
-h1 {
+.recipe h1 {
   color: red;
 }
 
-h2 {
+.recipe h2 {
   font-weight: bold;
   font-style: italic;
 }
@@ -20,15 +20,15 @@ p {
   font-size: 19px;
 }
 
-.underline {
+.text-underline {
   text-decoration: underline;
 }
 
-.line-through {
+.text-line-through {
   text-decoration: line-through;
 }
 
-.bg-yellow {
+.text-bg-colored {
   background-color: yellow;
 }
 

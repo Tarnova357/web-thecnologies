@@ -18,7 +18,7 @@ ul ul {
   list-style-type: none;
 }
 
-.square-marker a {
+.square-marker > a {
   text-decoration: none;
 }
 

@@ -5,15 +5,15 @@
 }
 
 p {
-  align: center;
+  text-align: center;
   color: #008000;
 }
 
 div {
-  align: justify;
+  text-align: justify;
 }
 
-.red-color {
+. {
   color: red;
 }
 
@@ -30,7 +30,7 @@ div {
   text-shadow: 5px -5px 3px #8a2be8;
 }
 
-.div1 {
+.line-through {
   text-decoration: line-through;
   text-transform: uppercase;
   text-indent: 50px;
