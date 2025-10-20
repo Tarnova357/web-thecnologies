@@ -1,3 +1,13 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    #abe5f4,
+    #d6e5fb,
+    #dce7f3,
+    #cbd5e1
+  );
+}
+
 .centered {
   display: flex;
   align-items: center;
