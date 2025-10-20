@@ -1,0 +1,83 @@
+header {
+  margin-bottom: 80px;
+}
+
+.wraper {
+  box-sizing: border-box;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  width: 80px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.menu li {
+  float: right;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: orange;
+}
+
+img {
+  width: 100%;
+  margin: 5px auto;
+}
+
+.container-shadow-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.shadow-item {
+  padding: 15px 0 5px 0;
+  outline: 1px solid green;
+  box-sizing: border-box;
+  width: 250px;
+  height: 300px;
+}
+
+.top-left-shadow {
+  box-shadow: -10px -10px 5px green;
+}
+
+.full-shadow {
+  box-shadow: 0 0 10px 10px green;
+}
+
+.right-bottom-shadow {
+  box-shadow: 0.4em 0.4em 5px rgba(0, 128, 0, 0.5);
+}
+
+.faint-full-shadow {
+  box-shadow: 0 0 50px 2px green;
+}
+
+.multicolour-shadow {
+  box-shadow: inset 5px 0 red, inset 0 5px green, inset -5px 0 blue, inset 0 -5px darkorange;
+}
+
+.twocolor-shadow {
+  box-shadow: 0 -12px 0 -7px orange, 0 12px 0 -7px darkgreen;
+}
+
+p {
+  margin: 0;
+  padding-left: 10px;
+}
+

@@ -31,7 +31,8 @@ header {
   padding: 10px;
   background-color: orange;
 }
-.container-block{
+
+.container-block {
   box-sizing: border-box;
   clear: both;
   color: white;
@@ -52,22 +53,23 @@ header {
 }
 
 .coloured-derived {
-  box-sizing:border-box;
-  width: 400px;
+  box-sizing: border-box;
+  width: 450px;
   background: #ac3131;
   border-radius: 70px;
   padding: 15px 30px;
   margin-bottom: 15px;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.right{
+.right {
   float: right;
 }
-p{
+
+p {
   text-align: justify;
   clear: both;
 }

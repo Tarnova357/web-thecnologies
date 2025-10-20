@@ -8,10 +8,11 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
+
 .logo {
-   float: left;
-   width: 80px;
- }
+  float: left;
+  width: 80px;
+}
 
 .menu {
   list-style: none;
@@ -30,22 +31,26 @@ header {
   padding: 10px;
   background-color: orange;
 }
-ul{
+
+ul {
   list-style: none;
 }
-.container{
+
+.container {
   box-sizing: border-box;
   clear: both;
 }
-.block{
+
+.block {
   float: left;
   width: 300px;
   margin: 20px;
 }
 
-.border-simple-colored{
+.border-simple-colored {
   border: 4px solid green;
 }
+
 .border-round {
   border-radius: 30px;
 }
@@ -57,24 +62,28 @@ ul{
 .border-curvy {
   border-radius: 50px 150px;
 }
+
 .border-bend-rectangle {
   border: 20px solid darkgreen;
   border-left: 20px solid greenyellow;
-  border-right:20px solid greenyellow;
+  border-right: 20px solid greenyellow;
   border-radius: 150px / 30px;
 }
+
 .border-bend-leaf {
   border: 20px solid darkgreen;
   border-top: 20px solid greenyellow;
-  border-bottom:20px solid greenyellow;
+  border-bottom: 20px solid greenyellow;
   border-radius: 200px 80px / 50px 20px;
 }
+
 .border-bend-corner {
   border: 20px solid greenyellow;
   border-left: 20px solid darkgreen;
   border-bottom-right-radius: 100%;
 
 }
+
 .border-stretch-diamonds {
   border-image-slice: 22;
   border-image-width: 20px;
@@ -121,14 +130,15 @@ ul{
 }
 
 .border-repeating-circles {
-  border-image-slice: 180 ;
+  border-image-slice: 180;
   border-image-width: 14px 12px;
   border-image-outset: 10px;
   border-image-repeat: repeat;
   border-image-source: url("../images/orange-circle.png");
   border-style: solid;
 }
-p{
+
+p {
   padding: 10px;
   text-align: justify;
 }
