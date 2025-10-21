@@ -37,19 +37,14 @@ img {
   margin: 5px auto;
 }
 
-.container-shadow-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-}
-
 .shadow-item {
   padding: 15px 0 5px 0;
   outline: 1px solid green;
   box-sizing: border-box;
   width: 250px;
   height: 300px;
+  float: left;
+  margin: 40px;
 }
 
 .top-left-shadow {
