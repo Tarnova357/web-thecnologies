@@ -1,4 +1,4 @@
-.block-1{
+.block-1 {
   display: block;
   margin: 10px auto;
   width: 100px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.block-2{
+.block-2 {
   display: block;
   margin: 10px auto;
   width: 200px;
@@ -18,7 +18,7 @@
   opacity: 0;
 }
 
-.block-3{
+.block-3 {
   display: block;
   margin: 10px auto;
   width: 300px;
@@ -33,6 +33,6 @@
   opacity: 1;
 }
 
-.block-2:hover ~ .block-3{
+.block-2:hover ~ .block-3 {
   opacity: 1;
 }
