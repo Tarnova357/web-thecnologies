@@ -1,0 +1,55 @@
+:root {
+  --grid-gap: 12px;
+  --block-bg: #f7d046;
+  --number-color: #ffffff;
+}
+
+body {
+  padding: var(--grid-gap);
+}
+
+.grid-container {
+  display: grid;
+  max-width: 1600px;
+  margin: auto;
+  height: 100px;
+  gap: var(--grid-gap);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+  grid-auto-flow: column;
+
+  counter-reset: block-counter;
+}
+
+.grid-item {
+  background-color: var(--block-bg);
+  counter-increment: block-counter;
+}
+.block-c4-r12 {
+  grid-row: span 12;
+}
+.block-c3-r6 {
+  grid-row: span 6;
+}
+.block-c3-r4 {
+  grid-row: span 4;
+}
+.block-c3-r3 {
+  grid-row: span 3;
+}
+.block-c2-r2 {
+  grid-row: span 2;
+}
+.block-c1-r1 {
+  grid-row: span 1;
+}
+
+.grid-item::before {
+  content: counter(block-counter);
+  display: block;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--number-color);
+}
